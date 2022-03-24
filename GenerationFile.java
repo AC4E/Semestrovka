@@ -11,7 +11,7 @@ public class GenerationFile {
         int b = 10_000;
         int countFields = 50;
         for (int i = 0; i <= countFields ; i++) {
-            File file = new File("C:\\homework1\\churaev_11-108\\2s\\Tasks\\Semestrovka\\elements\\Data" + i + ".txt");
+            File file = new File("elements\\Data" + i + ".txt");
                 int rndCount = a + (int) (Math.random() * ((b - a) + 1));
                 write(file, rndCount);
         }

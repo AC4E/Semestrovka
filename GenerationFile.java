@@ -1,3 +1,4 @@
+package Semestrovka;
 
 import java.io.*;
 import java.util.Random;

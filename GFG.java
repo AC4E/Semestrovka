@@ -93,7 +93,7 @@ public class GFG {
     public static void main(String[] args) throws FileNotFoundException {
         GFG tree = new GFG();
         for (int i = 0; i < 51 ; i++) {
-            int[] arr =  CreationMassive.creationMassive(new File("C:\\homework1\\churaev_11-108\\2s\\Tasks\\Semestrovka\\elements\\Data" + i + ".txt"));
+            int[] arr =  CreationMassive.creationMassive(new File("elements\\Data" + i + ".txt"));
             long timeE = System.nanoTime();
             tree.treeins(arr);
             long timeS = System.nanoTime();
